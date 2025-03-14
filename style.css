@@ -213,4 +213,44 @@ hr {
      border-radius: 8px;
      
 }
-/* testimonial seciton ended--------------------------- */
+/* testimonial seciton ended---------------and pricing section begins------------ */
+.price_tags{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.price_tags .left-tag{
+    background-color: #FCFCFD;
+    border-radius: 12px;
+    padding: 30px;
+    border: 1px solid #F1F1F3;
+}
+.price_tags .left-tag .button{
+    background-color: #FFF9F0;
+    border:1px solid  #FFEACC;
+    padding: 10px;
+    font-weight: 500;
+}
+.price_tags .left-tag .charges h1{
+    font-size: 80px !important;
+}
+.price_tags .left-tag .charges p{
+    font-size: 20px;
+    margin-bottom: -30px;
+}
+.price_tags .left-tag .featuers{
+    border: 1px solid #f1f1f3;
+}
+.price_tags .left-tag .featuers .item{
+    border: 1px solid #f1f1f3;
+}
+.price_tags .left-tag .featuers .submit{
+    background-color:#FF9500;
+    color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 20px !important;
+    margin-top: 40px !important;
+}
+/* ------------------ends pricing section ----------- */
