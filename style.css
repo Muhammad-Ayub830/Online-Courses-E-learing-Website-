@@ -1,49 +1,22 @@
+
 * {
+    padding: 0;
+    margin: 0;
     text-decoration: none !important;
-
     font-family: "Be Vietnam Pro", sans-serif;
-
+    list-style: none !important;
 }
 
 body {
-    margin: 0 !important;
-}
-
-.homepage {
     background-color: #F7F7F8;
 }
 
-.anouncement {
-    transition: .5s;
+.fill_orange {
     background-color: orange;
 }
 
-.anouncement:hover {
-    transform: scale(1.04);
-}
-
-/* anouncement section ends here-------------------------nav-section begins---------- */
-.logo {
-    width: 54px !important;
-    height: 54px !important;
-}
-
-.selected {
-    background-color: #F1F1F3;
-}
-
-.nav-item a {
-    padding: 14px 26px !important;
-    color: black;
-    border-radius: 8px;
-}
-
-.nav-item a:hover {
-    background-color: #f1f1f3;
-}
-
-.btn2 {
-    background-color: orange;
+.color_Orange {
+    color: orange;
 }
 
 .btn2:hover {
@@ -51,26 +24,84 @@ body {
     color: black !important;
 }
 
-.orange {
-    color: orange;
-
+/* ------general css and for anoutcement section ends---------  */
+.nav-bar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
 }
 
-hr {
-    width: 300px;
-    margin: auto;
+.nav-bar nav .links {
+    position: relative;
+    margin-top: 0px !important;
+}
+
+.nav-bar nav .links ul {
+    margin-top: 3%;
+    display: flex;
+}
+
+.nav-bar nav .links ul a {
+    padding: 14px 26px;
+    color: #262626;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.nav-bar nav .links ul a:hover {
+    background-color: #F1F1F3;
+}
+
+.selected {
+    background-color: #F1F1F3;
+}
+
+#hr1 {
+    color: rgb(196, 193, 193);
+    ;
 }
 
 @media screen and (max-width:990px) {
-    nav form {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+    .nav-bar nav {
+        border-bottom: none;
     }
 
-    nav {
-        padding: 0 !important;
+    .nav-bar nav .links {
+        position: absolute;
+        top: 100%;
+        display: block;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .nav-bar nav .links ul {
+        display: block;
+        border-bottom: 1px solid rgb(233, 230, 230);
+        height: 10;
+        background-color: #F7F7F8;
+        height: 0px;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .nav-bar nav .links ul li {
+        padding: 14px 26px;
+    }
+
+    .toggle_img {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .toggle_img img {
+        width: 30px;
+    }
+
+    #hr1 {
+        display: none;
     }
 }
 
