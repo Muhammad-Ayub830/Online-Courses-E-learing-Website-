@@ -618,3 +618,11 @@ hr {
         width: 100%;
     }
 }
+/* ------------topBtn--------- */
+
+#top-btn:hover{
+    background-color: white;
+    color: orange !important;
+    border: 1px solid orange !important;
+    font-size: larger;
+}

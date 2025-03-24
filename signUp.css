@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    font-family: "Be Vietnam Pro", sans-serif;
+    list-style: none !important;
+}
+
+body {
+    background-color: #F7F7F8;
+}
+
+.fill_orange {
+    background-color: orange;
+}
+
+.color_Orange {
+    color: orange;
+}
+
+.btn2:hover {
+    border: 1px solid orange;
+    color: black !important;
+}
+
+/* ------general css and for anoutcement section ends---------  */
+.nav-bar{
+   
+}
+.nav-bar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-bar nav .links {
+    position: relative;
+}
+
+.nav-bar nav .links ul {
+    margin-top: 3%;
+    display: flex;
+}
+
+.nav-bar nav .links ul a {
+    padding: 14px 26px;
+    color: #262626;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.nav-bar nav .links ul a:hover {
+    background-color: #F1F1F3;
+}
+
+.selected {
+    background-color: #F1F1F3;
+}
+
+#hr1 {
+    display: ;
+    color: rgb(196, 193, 193);
+    ;
+}
+
+@media screen and (max-width:990px) {
+    .nav-bar nav {
+        border-bottom: none;
+    }
+
+    .nav-bar nav .links {
+        position: absolute;
+        top: 100%;
+        display: block;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-bar nav .links ul {
+        display: block;
+        border-bottom: 1px solid rgb(233, 230, 230);
+        height: 10;
+        background-color: #F7F7F8;
+        height: 0px;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .nav-bar nav .links ul li {
+        padding: 14px 26px;
+    }
+
+    .toggle_img {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .toggle_img img {
+        width: 30px;
+    }
+
+    #hr1 {
+        display: none;
+    }
+}
+
+/* ------------nav bar ends */
+.hero {
+    margin-bottom: 100px;
+}
+
+.hero .front {
+    margin: 100px 0px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero .front .left h1 {
+    font-size: 40px;
+}
+.hero .front .left p {
+    color: #59595A;
+}
+.hero .front .right{
+    width: 500px;
+}
+.hero .front .right .header p {
+    color: #4C4C4D ;
+}
+.hero .front  input{
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    padding: 18px;
+    border-radius: 10px;
+}
+#check{
+    color: #656567;
+}
+.alter{
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    border-radius: 10px; 
+    
+}
+.message{
+    color: #4C4C4D !important;
+}
+.alter a{
+    color: #262626;
+}
+.id{
+    background-color: #FCFCFD;
+}
+.id a{
+    color: #4C4C4D;
+    background-color: #F7F7F8;
+    padding: 10px 20px;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px;
+}
+
+@media screen and (max-width:770px) {
+    /* .left{
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    } */
+    /* .hero .front .right{
+        width: 400px;
+    } */
+    .hero .front .left h1 {
+        font-size: 27px;
+    }
+
+    .hero .front {
+        margin: 70px 0px 40px 0px;
+       
+    }
+
+    .hero {
+        margin-bottom: 50px;
+    }
+    .id .read_more{
+        min-width: 300px;
+    }
+    .id a{
+        padding: 5px 10px;
+        font-size: 14px;
+        margin-left: 20px !important;
+    }
+}
+/* ----------------hero section ended------------ */
+.logo_one {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    color: #262626;
+}
+
+.HOme_stack,
+.AboutStack {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.HOme_stack,
+.AboutStack p {
+    color: #59595A;
+}
+
+.logo_one a {
+    color: #262626;
+}
+
+.paths i {
+    background-color: #eeeef0;
+    transition: .5s;
+}
+
+.paths i:hover {
+    background-color: orange;
+    color: #181515;
+    transform: translateY(5px);
+}
+
+@media screen and (max-width:990px) {
+
+    .wrapper {
+        flex-direction: column;
+        padding: 0 !important;
+        justify-content: center;
+        padding: 50px 50px !important;
+    }
+
+    .link_section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .HOme_stack {
+        margin-top: 50px;
+    }
+
+    .AboutStack {
+        text-align: end;
+        width: fit-content;
+        margin-top: 50px;
+    }
+
+    .footer_section {
+        padding: 0 !important;
+    }
+
+    .HOme_stack,
+    .AboutStack {
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    .Profile_info_stack {
+        margin-top: 50px;
+        width: 100%;
+    }
+}

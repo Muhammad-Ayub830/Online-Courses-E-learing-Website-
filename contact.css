@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    font-family: "Be Vietnam Pro", sans-serif;
+    list-style: none !important;
+}
+
+body {
+    background-color: #F7F7F8;
+}
+
+.fill_orange {
+    background-color: orange;
+}
+
+.color_Orange {
+    color: orange;
+}
+
+.btn2:hover {
+    border: 1px solid orange;
+    color: black !important;
+}
+
+/* -------anouncement and general styling ends  */
+.nav-bar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-bar nav .links {
+    position: relative;
+}
+
+.nav-bar nav .links ul {
+    margin-top: 3%;
+    display: flex;
+}
+
+.nav-bar nav .links ul a {
+    padding: 14px 26px;
+    color: #262626;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.nav-bar nav .links ul a:hover {
+    background-color: #F1F1F3;
+}
+
+.selected {
+    background-color: #F1F1F3;
+}
+
+#hr1 {
+    color: rgb(196, 193, 193);
+    ;
+}
+
+@media screen and (max-width:990px) {
+    .nav-bar nav {
+        border-bottom: none;
+    }
+
+    .nav-bar nav .links {
+        position: absolute;
+        top: 100%;
+        display: block;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-bar nav .links ul {
+        display: block;
+        border-bottom: 1px solid rgb(233, 230, 230);
+        height: 10;
+        background-color: #F7F7F8;
+        height: 0px;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .nav-bar nav .links ul li {
+        padding: 14px 26px;
+    }
+
+    .toggle_img {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .toggle_img img {
+        width: 30px;
+    }
+
+    #hr1 {
+        display: none;
+    }
+}
+
+/* ------------nav bar styling ends---------- */
+.hero {
+    margin-bottom: 100px;
+}
+
+.hero .front {
+    margin: 100px 0px;
+    margin-bottom: 50px;
+}
+
+.hero .front .left h1 {
+    font-size: 40px;
+}
+
+.hero .front .right p {
+    color: #59595A;
+}
+
+@media screen and (max-width:770px) {
+    .hero .front .left h1 {
+        font-size: 27px;
+    }
+
+    .hero .front {
+        margin: 70px 0px 40px 0px;
+    }
+
+    .hero {
+        margin-bottom: 50px;
+    }
+}
+
+/* hero section ends-------------- */
+.forms{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.inputs input .link {
+    margin-bottom: 20px;
+}
+ .inputs .input .field{
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 300px;
+}
+ .inputs .field input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.input-s .field{
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+.input-s .field input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.message{
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    height: 200px;
+    border-radius: 8px;
+    outline: none;
+}
+/* --------main form ends */
+.main_form{
+   
+}
+.secondary_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+}
+.card p{
+    color: #4C4C4D;
+}
+.card i{
+    font-size: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:930px) {
+ .forms{
+    display: block !important;
+ }   
+}
+/* -------------------------------contact section ends------------- */
+.logo_one {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    color: #262626;
+}
+
+.HOme_stack,
+.AboutStack {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.HOme_stack,
+.AboutStack p {
+    color: #59595A;
+}
+
+.logo_one a {
+    color: #262626;
+}
+
+.paths i {
+    background-color: #eeeef0;
+    transition: .5s;
+}
+
+.paths i:hover {
+    background-color: orange;
+    color: #181515;
+    transform: translateY(5px);
+}
+
+@media screen and (max-width:990px) {
+
+    .wrapper {
+        flex-direction: column;
+        padding: 0 !important;
+        justify-content: center;
+        padding: 50px 50px !important;
+    }
+
+    .link_section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .HOme_stack {
+        margin-top: 50px;
+    }
+
+    .AboutStack {
+        text-align: end;
+        width: fit-content;
+        margin-top: 50px;
+    }
+
+    .footer_section {
+        padding: 0 !important;
+    }
+
+    .HOme_stack,
+    .AboutStack {
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    .Profile_info_stack {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
